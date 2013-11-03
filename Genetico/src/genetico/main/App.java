@@ -42,7 +42,7 @@ public class App {
 
 	private static void reproduzirPopulacao(int quantidadeReproducao, List populacao) {
 		for (int i = 0; i < quantidadeReproducao; i++) {
-			new Reproducao().iniciar(populacao);
+			Reproducao.iniciar(populacao);
 		}
 	}
 
